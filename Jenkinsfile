@@ -5,7 +5,7 @@ pipeline {
             steps { 
                echo 'This is a minimal pipeline.'     
                 steps {
-                    build ' github org/Repo1/master
+                    build 'github org/Repo1/master'
                 }
             }
         }
