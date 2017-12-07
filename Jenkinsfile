@@ -6,12 +6,10 @@ pipeline {
                echo 'This is a minimal pipeline.'  
             }
         }
-                stage('Build') {
+                stage('Build1') {
                 steps {
                     build 'github org/Repo1/master'
                     }
                 }
-            
-        
     }
 }
